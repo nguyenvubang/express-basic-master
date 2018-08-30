@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	h1= dataBang.data.title
+	figure
+		img(src="./img/logo.png", alt="")
+	figure
+		img(src=dataBang.data.img, alt="")
+	p= dataBang.data.desc
+	ul
+		-for(x=0; x<dataBang.data.list.length; x++)
+			if(x==1)
+				li
+					a(href="#") #{dataBang.data.list[x]} 123
+			else
+				li
+					a(href="#") #{dataBang.data.list[x]}
+
+			
+	
+	-for(x=0; x<dataBang.data.news.length; x++)
+		.item
+			h2=dataBang.data.news[x].name
+			p=dataBang.data.news[x].desc
+

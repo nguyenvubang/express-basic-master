@@ -1,0 +1,23 @@
+{
+	"data": {
+		"title": "VU Bang",
+		"desc": "mo ta",
+		"class": "DG13302",
+		"img": "http://localhost:3000/img/logo.png",
+		"list": [
+			"aray bang 1",
+			"dsg fd 2",
+			"ds4h f 3"
+		],
+		"news": [
+			{
+				"name":"tin tức 1",
+				"desc": "nội dung tin 1"
+			},
+			{
+				"name": "tin  số 2",
+				"desc": "noi dung số 2"
+			}
+		]
+	}
+}
